@@ -4,7 +4,7 @@ Dự án này sử dụng thuật toán học tăng cường TD3 (Twin Delayed D
 
 ## Tổng quan
 
-Project này xây dựng một agent sử dụng TD3 để học cách tối ưu hóa chiến lược giao dịch cổ phiếu trong môi trường giao dịch tùy chỉnh. Agent này có thể quyết định khi nào mua, bán, hoặc giữ cổ phiếu dựa trên dữ liệu thị trường hiện tại và trạng thái danh mục đầu tư.
+Project này xây dựng một agent sử dụng TD3 để học cách tối ưu hóa chiến lược giao dịch cổ phiếu trong môi trường giao dịch tùy chỉnh. Agent này có thể quyết định khi nào mua, bán, hoặc giữ cổ phiếu dựa trên dữ liệu thị trường hiện tại và trạng thái danh mục đầu tư. 
 
 ## Tính năng
 
