@@ -67,7 +67,12 @@ TD3 (Twin Delayed Deep Deterministic Policy Gradient) là phiên bản cải ti�
 1. Quá trình huấn luyện
 ![Training Data](./results/training_plots.png)
 2. Hiệu suất trên tập kiểm thử
-
+![Test Data](./results/test_results.png)
+- Mô hình TD3 đã đạt được hiệu suất tốt trên tập kiểm thử với Tài sản tăng lên đến đỉnh điểm khoảng $210,000 Kết thúc với giá trị tài sản khoảng $123,982,
+tương đương lợi nhuận 23.98% từ vốn ban đầu $100,000. Mô hình có xu hướng ưu tiên hành động Mua, với các
+quyết định Bán và Giữ được thực hiện chiến lược hơn trong các giai đoạn thị trường khác nhau.
+Đặc biệt là mô hình có vẻ đã phát hiện và phản ứng tốt với sự thay đổi xu hướng thị trường sau
+bước 350.
 
 ## Tác giả
 
