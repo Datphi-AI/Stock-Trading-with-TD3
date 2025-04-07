@@ -32,14 +32,9 @@ stock_trading_td3/
 ├── data/
 │   ├── AMAT_historical_data_train.csv
 │   └── AMAT_historical_data_test.csv
-├── models/
-│   └── td3.py                  # Mã nguồn của thuật toán TD3
-├── utils/
-│   ├── stock_env.py            # Môi trường giao dịch cổ phiếu
-│   ├── visualization.py        # Công cụ hiển thị kết quả
-│   └── helpers.py              # Các hàm trợ giúp
+├── best_model/
 ├── results/                    # Thư mục lưu kết quả và mô hình
-├── main.py                     # Chương trình chính
+├── Training with RL.ipynb                     # Chương trình chính
 ├── requirements.txt            # Các thư viện cần thiết
 └── README.md                   # Tài liệu dự án
 ```
