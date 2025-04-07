@@ -64,11 +64,10 @@ TD3 (Twin Delayed Deep Deterministic Policy Gradient) là phiên bản cải ti�
 
 ## Kết quả
 
-Mô hình được đánh giá dựa trên:
-- Tổng tài sản cuối cùng
-- Tỉ lệ lợi nhuận (ROI)
-- Sharpe ratio
-- Drawdown tối đa
+1. Quá trình huấn luyện
+![Training Data](./results/training_plots.png)
+2. Hiệu suất trên tập kiểm thử
+
 
 ## Tác giả
 
