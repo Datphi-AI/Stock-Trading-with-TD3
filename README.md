@@ -32,9 +32,14 @@ stock_trading_td3/
 ├── data/
 │   ├── AMAT_historical_data_train.csv
 │   └── AMAT_historical_data_test.csv
-├── best_model/
+├── models/
+│   └── td3.py                  # Mã nguồn của thuật toán TD3
+├── utils/
+│   ├── stock_env.py            # Môi trường giao dịch cổ phiếu
+│   ├── visualization.py        # Công cụ hiển thị kết quả
+│   └── helpers.py              # Các hàm trợ giúp
 ├── results/                    # Thư mục lưu kết quả và mô hình
-├── Training with RL.ipynb                     # Chương trình chính
+├── main.py                     # Chương trình chính
 ├── requirements.txt            # Các thư viện cần thiết
 └── README.md                   # Tài liệu dự án
 ```
@@ -55,8 +60,6 @@ pip install -r requirements.txt
 3. Chuẩn bị dữ liệu:
    - Đặt tệp `AMAT_historical_data_train.csv` và `AMAT_historical_data_test.csv` vào thư mục `data/`
 
-```
-
 ## Thuật toán TD3
 
 TD3 (Twin Delayed Deep Deterministic Policy Gradient) là phiên bản cải tiến của DDPG với 3 kỹ thuật chính:
@@ -75,6 +78,7 @@ Mô hình được đánh giá dựa trên:
 ## Tác giả
 
 - [Dat Phi](https://github.com/Datphi-AI)
+
 
 ## Tài liệu tham khảo
 
