@@ -55,24 +55,6 @@ pip install -r requirements.txt
 3. Chuẩn bị dữ liệu:
    - Đặt tệp `AMAT_historical_data_train.csv` và `AMAT_historical_data_test.csv` vào thư mục `data/`
 
-## Cách sử dụng
-
-### Huấn luyện mô hình
-
-```bash
-python main.py --mode train
-```
-
-### Đánh giá mô hình
-
-```bash
-python main.py --mode evaluate --model_path results/best_model
-```
-
-### Giao dịch trực tiếp
-
-```bash
-python main.py --mode trade --model_path results/best_model
 ```
 
 ## Thuật toán TD3
