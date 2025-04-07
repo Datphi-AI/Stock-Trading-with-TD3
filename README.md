@@ -97,7 +97,7 @@ Mô hình được đánh giá dựa trên:
 
 ## Tác giả
 
-- [Your Name](https://github.com/Datphi-AI)
+- [Dat Phi](https://github.com/Datphi-AI)
 
 ## Tài liệu tham khảo
 
